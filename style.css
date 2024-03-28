@@ -549,6 +549,8 @@ input {
   padding: 10px 15px;
   border-top: 1px solid #656565;
   background-color: #fff;
+  position: sticky;
+  bottom: 0;
 }
 
 .bottom__bar-item {
