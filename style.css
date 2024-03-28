@@ -569,3 +569,9 @@ input {
 .bottom__bar-item > img {
   height: 15px;
 }
+
+@media (max-width: 430px) {
+  .social-media > img {
+    height: 65%;
+  }
+}
