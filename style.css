@@ -92,9 +92,12 @@ input {
 }
 
 .top__baner {
-  height: 192px;
-  margin: 10px 0;
-  background-color: #fff;
+  height: 130px;
+  width: 95%;
+  margin: 10px;
+  background-image: url('./images/baner.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .filter {
@@ -108,7 +111,7 @@ input {
   position: relative;
   background-color: #fff;
   padding-top: 15px;
-  opacity: .98;
+  opacity: 0.98;
 }
 
 .sticky {
@@ -141,7 +144,9 @@ input {
   padding-right: 5px;
 }
 
-.sticky .filter__input-arrow, .sticky .filter__info, .sticky .filter-select__wrapper > p {
+.sticky .filter__input-arrow,
+.sticky .filter__info,
+.sticky .filter-select__wrapper > p {
   display: none;
 }
 
@@ -166,7 +171,7 @@ input {
 }
 
 .filter__left-icon {
-  background-image: url('./images/actions-ico.svg');
+  background-image: url("./images/actions-ico.svg");
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -174,7 +179,7 @@ input {
 }
 
 .sticky .filter__left-icon {
-  background-image: url('./images/search-ico-gray.svg');
+  background-image: url("./images/search-ico-gray.svg");
   margin-left: 5px;
 }
 
@@ -214,7 +219,7 @@ input {
 
 .sticky .view-offers > .line:first-child {
   display: none;
-} 
+}
 
 .view-offers > h2 {
   color: rgb(0, 134, 115);
@@ -572,9 +577,36 @@ input {
   height: 15px;
 }
 
-
 @media (max-width: 430px) {
   .download-app > img {
-    height: 55%;
+    height: 65%;
+  }
+}
+
+@media (max-width: 380px) {
+  .product__middle {
+    gap: 0;
+  }
+  .product__preview {
+    width: 95px;
+  }
+  .top__baner {
+    height: 100px;
+  }
+}
+
+@media (max-width: 340px) {
+  .product__description {
+    width: 188px;
+  }
+  .seatch__input-border input {
+    width: 62%;
+  }
+  .filter-select__wrapper {
+    width: 50%;
+  }
+
+  .sticky .filter-select__wrapper {
+    width: 100%;
   }
 }
