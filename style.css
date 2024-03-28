@@ -572,8 +572,9 @@ input {
   height: 15px;
 }
 
+
 @media (max-width: 430px) {
-  .social-media > img {
+  .download-app > img {
     height: 55%;
   }
 }
