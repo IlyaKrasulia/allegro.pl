@@ -108,6 +108,7 @@ input {
   position: relative;
   background-color: #fff;
   padding-top: 15px;
+  opacity: .98;
 }
 
 .sticky {
@@ -550,7 +551,8 @@ input {
   border-top: 1px solid #656565;
   background-color: #fff;
   position: sticky;
-  bottom: 0;
+  bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .bottom__bar-item {
